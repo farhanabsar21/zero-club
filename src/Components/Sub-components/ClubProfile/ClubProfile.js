@@ -9,7 +9,7 @@ const ClubProfile = () => {
     return (
         <section className="club-profile">
             <div className="three-zero-container">
-                <div className="row club-profile-header">
+                <div className="row club-profile-header py-5">
                     <h1>3ZERO Club - Club Profile</h1>
                 </div>
                 <div className="row">

@@ -1,0 +1,52 @@
+$primary-color: #46a4a3;
+$secondary-color: #ef9740;
+$background-color: #ffffff;
+$label-color: #666666;
+$heading-color: #555555;
+$post-back-color: #eeeeee;
+$btn-background: #cccccc;
+
+.single-bulletin-board-blogs{
+    .single-bulletin-blog-content{
+        background-color: $background-color;
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+        border-radius: 15px;
+        .single-bulletin-blog-content-img{
+            height: 200px;
+            img{
+                height: 200px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 15px 15px 0 0;
+            }
+        }
+        .single-bulletin-blog-content-header{
+            width: 90%;
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                h5{
+                    font-weight: bold;
+                }
+                span{
+                    color: $label-color;
+                }
+        }
+        h4{
+            color: $primary-color;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        p{
+            color: $heading-color;
+        }
+        a{
+            color: $secondary-color;
+            text-decoration: none;
+        }
+    }
+}

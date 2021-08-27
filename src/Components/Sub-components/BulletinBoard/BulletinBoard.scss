@@ -1,0 +1,83 @@
+$primary-color: #46a4a3;
+$secondary-color: #ef9740;
+$background-color: #ffffff;
+$label-color: #666666;
+$heading-color: #555555;
+$post-back-color: #eeeeee;
+$btn-background: #cccccc;
+
+.three-zero-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bulletin-board{
+    background-color: $post-back-color;
+    .bulletin-board-header{
+        .bulletin-board-header-content{
+            h2{
+                color: $primary-color;
+                font-weight: bold;
+            }
+        }
+        .bulletin-board-header-button{
+            button{
+                outline: none;
+                border: none;
+                background-color: $secondary-color;
+                padding: 9px 15px;
+                color: $background-color;
+                margin-left: 10px;
+                border: 2px solid $secondary-color;
+            }
+            .add-filter{
+                background-color: inherit;
+                color: $secondary-color;
+            }
+        }
+    }
+    .bulletin-board-blogs{
+        .bulletin-blog-content{
+            background-color: $background-color;
+            box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            .bulletin-blog-content-img{
+                height: 200px;
+                img{
+                    height: 200px;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5px 5px 0 0;
+                }
+            }
+            .bulletin-blog-content-header{
+                width: 80%;
+                    img{
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    h5{
+                        font-weight: bold;
+                    }
+                    span{
+                        color: $label-color;
+                    }
+            }
+            h4{
+                color: $primary-color;
+                font-size: 18px;
+                font-weight: 600;
+                margin-top: 20px;
+            }
+            p{
+                color: $heading-color;
+            }
+            a{
+                color: $secondary-color;
+                text-decoration: none;
+            }
+        }
+    }
+}

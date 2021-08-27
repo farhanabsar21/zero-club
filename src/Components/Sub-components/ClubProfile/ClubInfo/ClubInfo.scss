@@ -8,7 +8,7 @@ $heading-color: #444444;
     background-color: $background-color;
     border-radius: 15px;
     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
-    
+
     .club-info-header{
         height: 200px;
         background-color: $primary-color;
@@ -24,6 +24,7 @@ $heading-color: #444444;
     .club-info-body{
         label{
             color: $label-color;
+            padding-bottom: 5px;
         }
         h6{
             font-size: 18px;
