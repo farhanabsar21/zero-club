@@ -13,9 +13,9 @@ $neutral-color: #ffffff;
     .sigin-form{
         padding: 1rem 3rem;
         background-color: $neutral-color;
-        width: 35%;
+        width: 500px;
         border-radius: 15px;
-
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
         form{
             padding: 20px;
             
@@ -58,7 +58,8 @@ $neutral-color: #ffffff;
                     background-color: $secondary-color;
                     color: $neutral-color;
                     padding: 10px 24px;
-                    font-weight: 600;
+                    font-weight: 700;
+                    font-size: 15px;
                 }
                 p{
                     font-size: 15px;
